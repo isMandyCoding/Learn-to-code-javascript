@@ -130,7 +130,7 @@ You just learned a lot! Lets put it together and build something!
 
 
 
-# YOU DID IT! YOU'RE NOW A CODER!
+# YOU DID IT! YOU'RE NOW A PROGRAMMER!
 
 ## Welcome! :)
 
