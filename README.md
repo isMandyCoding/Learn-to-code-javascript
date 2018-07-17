@@ -159,13 +159,15 @@ while (i == 1) {
 
 
 ## Intereact with dialog boxes
+using dialog boxes can be simple way to get started interacting with users.
+
 Alert: Pop up information in a dialog box
 
-`alert("Hello, I'm a pop up);`
+`alert("Hello, I'm a pop up");`
  
 Prompt: get information from a user in dialog box
 
-`prompt()`
+`prompt("I'm a pop up you can type in!")`
 
 
 ## Lets do some code!
