@@ -113,6 +113,8 @@ In this simple example you're not saving a ton of code, but imagine a function t
 
 When writting a program you'll often want to check if data meets a certain condition or not. In javascript you'll often use the `if` statement. This may be followed by `else if` or `else` depending on how many conditions need to be checked.
 
+Example:
+
 ```
 if (guess == answer) {
     message = "You Win!";
@@ -126,11 +128,40 @@ if (guess == answer) {
 ```
 
 ## Loops
+We're going to go over some of the basic loops in javascript, but yet again we're not going to cover everything, so you may want to read more about loops [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration).
+
+Loops are used when you want to repeat something. You can repeat the exact same thing, or change some variable and repeat the action again.
+
+two common types of loops are `for` and `while`.
+`for` loops are often used to run a loop a specified amount of time.
+
+`while` loops are often used to run a loop indefinitly until ceratin criteria are met.
+
+Example:
+
+This `for` loop will run 5 times, and print out the value of `i` to the console. 
+
+```
+var i;
+for (i = 1; i <= 5; i++) {
+    console.log(i)
+}
+```
+
+If `i` were set to 1 it would run this loop and print the string until the value of `i` changed. If you run this in your browser it will probably crash it!
+
+```
+var i = 0;
+while (i == 1) {
+    console.log("I will crash your browser")
+}
+```
+
 
 ## Intereact with dialog boxes
 Alert: Pop up information in a dialog box
 
-`alert();`
+`alert("Hello, I'm a pop up);`
  
 Prompt: get information from a user in dialog box
 
@@ -139,7 +170,6 @@ Prompt: get information from a user in dialog box
 
 ## Lets do some code!
 You just learned a lot! Lets put it together and build something!
-
 
 
 
