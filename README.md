@@ -17,7 +17,7 @@ The goal of this brief course is to provide you with a fun introduction to the w
 * Be patient and nice
 * You will get through it!
 
-#### What web coding is (really)?
+#### What is programming?
 Programming is giving your computer a set of instructions to perform a task. 
 
 ## Setting up your computer
@@ -28,35 +28,69 @@ Programming is giving your computer a set of instructions to perform a task.
 * We will be using an online text editor for this workshop. You can sign up here: [https://repl.it/](https://repl.it/)
 
 
-## Javscript Basics
+## Javscript Basics:
 
-### Data Types
+### Data Types:
 We're going to stick with the basics, so We wont be going over EVERY data type in javascript, but you you can read a more comprehensive list [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures).  
 
 Feel free to try these code samples out in your developer console!
 
-#### Numbers
+#### Numbers:
+
+Numbers are written just like you would think. Just the number! No quotes or symbols to worry about.
 
 `25` `100`
 
-#### Strings
+Multiple, Add, Divide, Compare
+
+- `5 * 5` | output: 25
+- `5 + 5` | output: 10
+- `8 / 2` | output: 4
+- `8 > 2` | output: true
+
+#### Strings:
 
 `"Hello, World."`
 
-#### Boolean
+#### Booleans:
+You can think of Booleans as yes(true) and no(false)
+
 `true` `false`
 
-## Variable
+We'll go into how to use these in a little bit. For nowjust remember they exsist!
 
-`var number = 5;`
+
+## Variables:
+
+`var age = 27;`
+
+## Comparison Oporators:
+Again we won't cover ALL of the comparison oporators in this workshop, but you can see a full list of them [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+
+- `==` Equal
+- `!=` Not Equal
+- `>` Greater Than
+- `>=` Greater Than or Equal
+- `<` Less Than
+- `<=` Less Than or Equal
+
 
 ## Functions
 
+
 ## Conditionals
 
+
+## Loops
+
 ## Intereact with dialog boxes
-Alert 
-Dialog
+Alert: Pop up information in a dialog box
+
+`alert();`
+ 
+Prompt: get information from a user in dialog box
+
+`prompt()`
 
 
 ## Lets do some code!
