@@ -1,6 +1,6 @@
 
 // returns a random integer from 1 to 100
-var answer = Math.floor(Math.random() * 5) + 1; 
+var answer = Math.floor(Math.random() * 100) + 1; 
 var guess;
 var message;
 var tries = 0;
