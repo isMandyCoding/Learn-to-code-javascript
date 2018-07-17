@@ -49,8 +49,10 @@ Multiple, Add, Divide, Compare
 - `8 > 2` | output: true
 
 #### Strings:
+Strings can be a collection of letters, symbols and/or numbers. They are made by surrounding the content with quotation marks.
 
 `"Hello, World."`
+`"CrAzy Random String 987879896jvdjvda &&(&(@*(*"`
 
 #### Booleans:
 You can think of Booleans as yes(true) and no(false)
@@ -61,10 +63,16 @@ We'll go into how to use these in a little bit. For nowjust remember they exsist
 
 
 ## Variables:
+Variable are a way to store information.
+This is super useful! You can then recieve or update the variable in your program. You'll see this later!
 
-`var age = 27;`
+- `var twitter = "@sagecodes";`
+- `var score = 0;`
+
 
 ## Comparison Oporators:
+Comparison Oporators are used quite frequently in programming. Its a great way to compare data.
+
 Again we won't cover ALL of the comparison oporators in this workshop, but you can see a full list of them [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
 - `==` Equal
@@ -74,8 +82,31 @@ Again we won't cover ALL of the comparison oporators in this workshop, but you c
 - `<` Less Than
 - `<=` Less Than or Equal
 
+Example:
+
+`current_score >= highest_score`
+This would return a boolean value. Depending on the values of these variables this would return either `true` or `false`. Try it in your console using numbers instead of variables!
+
 
 ## Functions
+Reduce, Reuse, Recycle
+
+Functions make it easy to reuse code. If you find yourself repeating code you may want to turn it into a function!
+
+Example:
+This fucntion takes in two arguments(a, b) and returns the value of them added together. 
+
+```
+function add(a, b) {
+	return a + b; 
+};
+```
+to use the function call it by writting its name and open/close parentheis(). With arguments passed inside the parentheis():
+
+- `add(5,5)` | output: 10
+- `add(2,5)` | output: 7
+
+In this simple example you're not saving a ton of code, but imagine a function that uses many lines of code! 
 
 
 ## Conditionals
@@ -94,8 +125,7 @@ Prompt: get information from a user in dialog box
 
 
 ## Lets do some code!
-
-Using what we've learned above we're going to make a number guessing game!
+You just learned a lot! Lets put it together and build something!
 
 
 
