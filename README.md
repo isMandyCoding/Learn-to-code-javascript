@@ -30,8 +30,38 @@ Programming is giving your computer a set of instructions to perform a task.
 
 ## Javscript Basics
 
+### Data Types
+We're going to stick with the basics, so We wont be going over EVERY data type in javascript, but you you can read a more comprehensive list [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures).  
+
+Feel free to try these code samples out in your developer console!
+
+#### Numbers
+
+`25` `100`
+
+#### Strings
+
+`"Hello, World."`
+
+#### Boolean
+`true` `false`
+
+## Variable
+
+`var number = 5;`
+
+## Functions
+
+## Conditionals
+
+## Intereact with dialog boxes
+Alert 
+Dialog
+
 
 ## Lets do some code!
+
+Using what we've learned above we're going to make a number guessing game!
 
 
 
