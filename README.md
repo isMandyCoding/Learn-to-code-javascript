@@ -111,6 +111,19 @@ In this simple example you're not saving a ton of code, but imagine a function t
 
 ## Conditionals
 
+When writting a program you'll often want to check if data meets a certain condition or not. In javascript you'll often use the `if` statement. This may be followed by `else if` or `else` depending on how many conditions need to be checked.
+
+```
+if (guess == answer) {
+    message = "You Win!";
+} else if (guess < answer) {
+    message = "Your guess is too low!";
+} else if (guess > answer){
+    message = "your guess is too high!";
+} else {
+	message = "I think you entered something wrong..."
+}
+```
 
 ## Loops
 
