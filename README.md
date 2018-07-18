@@ -173,6 +173,15 @@ Prompt: get information from a user in dialog box
 ## Lets do some code!
 You just learned a lot! Lets put it together and build something!
 
+Sign up if you haven't already and create a new project: https://repl.it/
+
+If you get stuck or want to look ahead at the completed project you can view it [here](https://repl.it/@SageElliott/SimpleGuessingGame).
+
+What are some ideas for improvements? 
+
+- Data validation 
+- set number of tries (try using a `for` loop!)
+
 
 
 # YOU DID IT! YOU'RE NOW A PROGRAMMER!
