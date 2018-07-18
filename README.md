@@ -7,7 +7,7 @@ The goal of this brief course is to provide you with a fun introduction to the w
 
 #### Here's what we'll be doing:
 * Overview of basic JavaScript concepts
-* Building a simple application using javscript
+* Building a simple application using javascript
 * Playing around in the sandbox
 
 #### Before you begin, a quick gut check:
@@ -28,7 +28,7 @@ Programming is giving your computer a set of instructions to perform a task.
 * We will be using an online text editor for this workshop. You can sign up here: [https://repl.it/](https://repl.it/)
 
 
-## Javscript Basics:
+## Javascript Basics:
 
 ### Data Types:
 We're going to stick with the basics, so We wont be going over EVERY data type in javascript, but you you can read a more comprehensive list [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures).  
@@ -59,21 +59,21 @@ You can think of Booleans as yes(true) and no(false)
 
 `true` `false`
 
-We'll go into how to use these in a little bit. For nowjust remember they exsist!
+We'll go into how to use these in a little bit. For now just remember they exist!
 
 
 ## Variables:
 Variable are a way to store information.
-This is super useful! You can then recieve or update the variable in your program. You'll see this later!
+This is super useful! You can then receive or update the variable in your program. You'll see this later!
 
 - `var twitter = "@sagecodes";`
 - `var score = 0;`
 
 
-## Comparison Oporators:
-Comparison Oporators are used quite frequently in programming. Its a great way to compare data.
+## Comparison Operators:
+Comparison Operators are used quite frequently in programming. Its a great way to compare data.
 
-Again we won't cover ALL of the comparison oporators in this workshop, but you can see a full list of them [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+Again we won't cover ALL of the comparison operators in this workshop, but you can see a full list of them [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
 - `==` Equal
 - `!=` Not Equal
@@ -94,14 +94,14 @@ Reduce, Reuse, Recycle
 Functions make it easy to reuse code. If you find yourself repeating code you may want to turn it into a function!
 
 Example:
-This fucntion takes in two arguments(a, b) and returns the value of them added together. 
+This function takes in two arguments(a, b) and returns the value of them added together. 
 
 ```
 function add(a, b) {
 	return a + b; 
 };
 ```
-to use the function call it by writting its name and open/close parentheis(). With arguments passed inside the parentheis():
+to use the function call it by writing its name and open/close parenthesis(). With arguments passed inside the parenthesis():
 
 - `add(5,5)` | output: 10
 - `add(2,5)` | output: 7
@@ -111,7 +111,7 @@ In this simple example you're not saving a ton of code, but imagine a function t
 
 ## Conditionals
 
-When writting a program you'll often want to check if data meets a certain condition or not. In javascript you'll often use the `if` statement. This may be followed by `else if` or `else` depending on how many conditions need to be checked.
+When writing a program you'll often want to check if data meets a certain condition or not. In javascript you'll often use the `if` statement. This may be followed by `else if` or `else` depending on how many conditions need to be checked.
 
 Example:
 
@@ -135,7 +135,7 @@ Loops are used when you want to repeat something. You can repeat the exact same 
 two common types of loops are `for` and `while`.
 `for` loops are often used to run a loop a specified amount of time.
 
-`while` loops are often used to run a loop indefinitly until ceratin criteria are met.
+`while` loops are often used to run a loop indefinitely until certain criteria are met.
 
 Example:
 
@@ -158,7 +158,7 @@ while (i == 1) {
 ```
 
 
-## Intereact with dialog boxes
+## Interact with dialog boxes
 using dialog boxes can be simple way to get started interacting with users.
 
 Alert: Pop up information in a dialog box
