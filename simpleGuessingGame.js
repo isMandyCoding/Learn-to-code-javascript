@@ -7,9 +7,7 @@ var tries = 0;
 
 while (guess != answer) {
     guess = prompt("What is your guess? 1-5 " + message)
-    if (guess == answer) {
-        message = "You Win!";
-    } else if (guess < answer) {
+    if (guess < answer) {
         message = "Your guess is too low!";
     } else if (guess > answer){
         message = "your guess is too high!";
