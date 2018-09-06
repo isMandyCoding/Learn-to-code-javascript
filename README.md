@@ -29,6 +29,18 @@ Programming is giving your computer a set of instructions to perform a task.
 
 ## What is javascript?
 
+### Brief history
+
+
+
+
+### Who uses jaavscrip?
+
+### Careers with Javascript
+
+
+
+
 
 ## Javascript Basics:
 
@@ -177,6 +189,16 @@ You just learned a lot! Lets put it together and build something!
 
 Sign up if you haven't already and create a new project: https://repl.it/
 
+
+We'es going to build a number guessing game using:
+
+- variables
+- Comparison Operators
+- Conditionals
+- loops
+- functions
+- dialog boxes
+
 If you get stuck or want to look ahead at the completed project you can view it [here](https://repl.it/@SageElliott/GuessingGame).
 
 What are some ideas for improvements? 
@@ -184,6 +206,7 @@ What are some ideas for improvements?
 - Exit on command
 - data validation
 - input the number range from popup
+- output grammar depending on number of tries
 
 
 # YOU DID IT! YOU'RE NOW A PROGRAMMER!
