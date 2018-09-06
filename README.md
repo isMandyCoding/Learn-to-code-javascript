@@ -28,6 +28,7 @@ Programming is giving your computer a set of instructions to perform a task.
 * We will be using an online text editor for this workshop. You can sign up here: [https://repl.it/](https://repl.it/)
 
 
+
 ## Javascript Basics:
 
 ### Data Types:
@@ -175,13 +176,13 @@ You just learned a lot! Lets put it together and build something!
 
 Sign up if you haven't already and create a new project: https://repl.it/
 
-If you get stuck or want to look ahead at the completed project you can view it [here](https://repl.it/@SageElliott/SimpleGuessingGame).
+If you get stuck or want to look ahead at the completed project you can view it [here](https://repl.it/@SageElliott/GuessingGame).
 
 What are some ideas for improvements? 
 
-- Data validation 
-- set number of tries (try using a `for` loop!)
-
+- Exit on command
+- data validation
+- input the number range from popup
 
 
 # YOU DID IT! YOU'RE NOW A PROGRAMMER!
