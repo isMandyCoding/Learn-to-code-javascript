@@ -228,8 +228,6 @@ Please feel free to reach out to me with any questions!
 
 #### About the Instructors
 
-[Gavin Look](https://www.linkedin.com/in/gavinlook/) is a current Galvanize Web Development student. Graduating this week!
-
 [Sage Elliott](https://www.linkedin.com/in/sageelliott/) is a technology evangelist for Galvanize based in Seattle. Previously he worked as a Software and hardware engineer for startup around Seattle WA and Melbourne Fl.
 
 You can email him at [sage.elliott@galvanize.com](mailto:age.elliott@galvanize.com) or tweet [@sagecodes](https://twitter.com/sagecodes) for any further questions.
