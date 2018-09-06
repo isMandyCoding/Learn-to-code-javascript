@@ -27,6 +27,7 @@ Programming is giving your computer a set of instructions to perform a task.
 * A web browser to see what we're working on as others see it (Recommend Google Chrome: [chrome.google.com] (http://chrome.google.com))
 * We will be using an online text editor for this workshop. You can sign up here: [https://repl.it/](https://repl.it/)
 
+## What is javascript?
 
 
 ## Javascript Basics:
