@@ -27,13 +27,20 @@ Programming is giving your computer a set of instructions to perform a task.
 * A web browser to see what we're working on as others see it (Recommend Google Chrome: [chrome.google.com] (http://chrome.google.com))
 * We will be using an online text editor for this workshop. You can sign up here: [https://repl.it/](https://repl.it/)
 
+
+
+
+
+
+
+
 ## What is javaScript?
 
-### Brief history
+### A very brief history
 
+Created by Brendan Eich in 1995 in ONLY 10 days during his time at Netscape Communications.
 
-
-[Quirks](https://www.destroyallsoftware.com/talks/wat)
+A lot of updates have happened of course since then, but its still fun to see some of the [quirks](https://www.destroyallsoftware.com/talks/wat) still in the language!
 
 
 Read more about the history of JavaScript [here](https://en.wikipedia.org/wiki/JavaScript).
