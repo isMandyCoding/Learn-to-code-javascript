@@ -92,9 +92,9 @@ Almost everyone!
 - [Machine learning](https://js.tensorflow.org/) 😱
 - [Embedded(Hardware) Programming](http://ejs.co/) 😲
 
-#### Popular Framesworks to keep in mind
+#### Popular Frameworks to keep in mind
 
-When learning more abour JS you'll probably keep hearning about these!
+When learning more about JS you'll probably keep learning about these!
 
 - Node
 - Express
@@ -191,7 +191,7 @@ In this simple example you're not saving a ton of code, but imagine a function t
 
 ## Conditionals
 
-When writing a program you'll often want to check if data meets a certain condition or not. We can use conditionals to make descision about our data and create different outcomes
+When writing a program you'll often want to check if data meets a certain condition or not. We can use conditionals to make decision about our data and create different outcomes
 
  In javascript you'll often use the `if` statement. This may be followed by `else if` or `else` depending on how many conditions need to be checked.
 
@@ -258,7 +258,7 @@ You just learned a lot! Lets put it together and build something!
 Sign up if you haven't already and create a new project: https://repl.it/
 
 
-We'es going to build a number guessing game using:
+We're going to build a number guessing game using:
 
 - variables
 - Comparison Operators
