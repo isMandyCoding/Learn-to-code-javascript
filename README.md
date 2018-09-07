@@ -8,31 +8,58 @@ The goal of this brief course is to provide you with a fun introduction to the w
 #### Here's what we'll be doing:
 * Overview of basic JavaScript concepts
 * Building a simple application using javascript
-* Playing around in the sandbox
+* Playing around and break things
 
-#### Before you begin, a quick gut check:
-* This course is for absolute beginners
-* Feel free to move ahead
-* Help others when you can
-* Be patient and nice
-* You will get through it!
 
 #### What is programming?
 Programming is giving your computer a set of instructions to perform a task. 
 
+This sounds simple but it can get complicated! 
+
+
 ## Setting up your computer
-(Brace yourself...)
+
 
 #### Please set up the following:
+
 * A web browser to see what we're working on as others see it (Recommend Google Chrome: [chrome.google.com] (http://chrome.google.com))
 * We will be using an online text editor for this workshop. You can sign up here: [https://repl.it/](https://repl.it/)
 
 
+Well... that was easy! 
 
 
+## What this workshop is
+
+A super friendly introduction to JavaScript No previous experience expected! 
+
+You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited and comfortable to keep working and learning on your own! Come to our almost weekly code hours [meetups](https://www.meetup.com/Learn-Code-Seattle/events/) to ask questions if you get stuck and show off what you've been working on!
+
+- This course is for absolute beginners
+- Ask Questions!
+- Answer Questions!
+- Help others when you can
+- Its ok to get stuck, just ask for help!
+- Feel free to move ahead
+- Be patient and nice
 
 
+## About me:
+Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist here at Galvanize! Previously I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love technology! I'm currently learning more about building AI and VR projects. 
 
+- Website: [sageelliott.com](http://sageelliott.com/)
+- Twitter: [@sagecodes](https://twitter.com/@sagecodes)
+- LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
+- Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
+
+
+## About you!
+
+Give a quick Intro!
+
+- Whats your name?
+- Whats your background?
+- Why are you interested in JavaScript?
 
 ## What is javaScript?
 
