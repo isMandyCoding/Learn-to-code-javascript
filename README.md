@@ -69,10 +69,7 @@ Created by Brendan Eich in 1995 in ONLY 10 days during his time at Netscape Comm
 
 A lot of updates have happened of course since then, but its still fun to see some of the [quirks](https://www.destroyallsoftware.com/talks/wat) still in the language!
 
-
 Read more about the history of JavaScript [here](https://en.wikipedia.org/wiki/JavaScript).
-
-
 
 Javascript is often used with HTML and CSS to create dynamic web pages. 
 
@@ -80,8 +77,9 @@ Javascript is often used with HTML and CSS to create dynamic web pages.
 
 Almost everyone!
 
-- Facebook
-- Google
+- Large Companies (Google, Facebook)
+- Startups
+- Agencies
 - Pretty much anyone using web technology 
 
 
@@ -110,11 +108,11 @@ When learning more abour JS you'll probably keep hearning about these!
 ### Data Types:
 We're going to stick with the basics, so We wont be going over EVERY data type in javascript, but you you can read a more comprehensive list [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures).  
 
-Feel free to try these code samples out in your developer console!
+Feel free to try these code samples out in your developer console(I'll show you how) or your repl!
 
 #### Numbers:
 
-Numbers are written just like you would think. Just the number! No quotes or symbols to worry about.
+Numbers are written just like you would think. Just the number! No quotes or symbols to worry about. If you do put quotes around a number it will become a string (see next)
 
 `25` `100`
 
@@ -131,6 +129,9 @@ Strings can be a collection of letters, symbols and/or numbers. They are made by
 `"Hello, World."`
 `"CrAzy Random String 987879896jvdjvda &&(&(@*(*"`
 
+Can we add strings together? Try it out!
+
+
 #### Booleans:
 You can think of Booleans as yes(true) and no(false)
 
@@ -143,12 +144,14 @@ We'll go into how to use these in a little bit. For now just remember they exist
 Variable are a way to store information.
 This is super useful! You can then receive or update the variable in your program. You'll see this later!
 
+Think of it as naming a piece of data.
+
 - `var twitter = "@sagecodes";`
 - `var score = 0;`
 
 
 ## Comparison Operators:
-Comparison Operators are used quite frequently in programming. Its a great way to compare data.
+Comparison Operators are used quite frequently in programming. Its a great way to compare and use data.
 
 Again we won't cover ALL of the comparison operators in this workshop, but you can see a full list of them [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
@@ -188,7 +191,9 @@ In this simple example you're not saving a ton of code, but imagine a function t
 
 ## Conditionals
 
-When writing a program you'll often want to check if data meets a certain condition or not. In javascript you'll often use the `if` statement. This may be followed by `else if` or `else` depending on how many conditions need to be checked.
+When writing a program you'll often want to check if data meets a certain condition or not. We can use conditionals to make descision about our data and create different outcomes
+
+ In javascript you'll often use the `if` statement. This may be followed by `else if` or `else` depending on how many conditions need to be checked.
 
 Example:
 
@@ -200,7 +205,7 @@ if (guess == answer) {
 } else if (guess > answer){
     message = "your guess is too high!";
 } else {
-	message = "I think you entered something wrong..."
+	message = "I think you entered something wrong...";
 }
 ```
 
