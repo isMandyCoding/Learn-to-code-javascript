@@ -40,18 +40,35 @@ Read more about the history of JavaScript [here](https://en.wikipedia.org/wiki/J
 
 
 
-often used with HTML and CSS to create dynamic web pages. 
+Javascript is often used with HTML and CSS to create dynamic web pages. 
 
 ### Who uses javaScrip?
 
 Almost everyone!
 
+- Facebook
+- Google
+- Pretty much anyone using web technology 
 
 
-### Careers with JavaScript
+### What can you do with JavaScript
 
+- Web Development
+	- Front-End
+	- Back-End
+- Mobile Development 
+- [Machine learning](https://js.tensorflow.org/) 😱
+- [Embedded(Hardware) Programming](http://ejs.co/) 😲
 
+#### Popular Framesworks to keep in mind
 
+When learning more abour JS you'll probably keep hearning about these!
+
+- Node
+- Express
+- React
+- Angular
+- Vue
 
 
 ## JavaScript Basics:
