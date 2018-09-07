@@ -2,6 +2,8 @@
 
 Brought to you by Galvanize. Learn more about the way we teach code at [galvanize.com](http://galvanize.com).
 
+Get to this repo by typing in URL: **jsrepo.sage.codes**
+
 ## Overview
 The goal of this brief course is to provide you with a fun introduction to the world of web development with Javascript.
 
