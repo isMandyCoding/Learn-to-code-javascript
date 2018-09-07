@@ -27,22 +27,34 @@ Programming is giving your computer a set of instructions to perform a task.
 * A web browser to see what we're working on as others see it (Recommend Google Chrome: [chrome.google.com] (http://chrome.google.com))
 * We will be using an online text editor for this workshop. You can sign up here: [https://repl.it/](https://repl.it/)
 
-## What is javascript?
+## What is javaScript?
 
 ### Brief history
 
 
 
-
-### Who uses jaavscrip?
-
-### Careers with Javascript
+[Quirks](https://www.destroyallsoftware.com/talks/wat)
 
 
+Read more about the history of JavaScript [here](https://en.wikipedia.org/wiki/JavaScript).
 
 
 
-## Javascript Basics:
+often used with HTML and CSS to create dynamic web pages. 
+
+### Who uses javaScrip?
+
+Almost everyone!
+
+
+
+### Careers with JavaScript
+
+
+
+
+
+## JavaScript Basics:
 
 ### Data Types:
 We're going to stick with the basics, so We wont be going over EVERY data type in javascript, but you you can read a more comprehensive list [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures).  
@@ -211,38 +223,45 @@ What are some ideas for improvements?
 
 # YOU DID IT! YOU'RE NOW A PROGRAMMER!
 
-## Welcome! :)
+### Welcome! :)
 
+### Keep learning!
 
-## Upcoming Events!
-[Galvanize Web Development Foundations with JavaScript - 7/23 - 8/29](https://www.eventbrite.com/e/galvanize-web-development-foundations-with-javascript-seattle-723-829-tickets-45261516414) - Use Coupon code `learn2code` for 10% off
-
-[Galvanize Seattle Web Development Capstone Showcase (7/19)](https://www.eventbrite.com/e/galvanize-seattle-web-development-capstone-showcase-719-tickets-46775091558?aff=ebdssbdestsearch) See final projects of our graduating class!
-
-[Getting your Foot in the door - 7/25](https://www.eventbrite.com/e/getting-your-foot-in-the-door-tickets-48147532566)
-
-
-[Learn to Code: Introduction to Git & Github - 7/26](https://www.eventbrite.com/publish?crumb=9d45df65e80535&eid=48139700139)
 
 
 ## What is Galvanize?
 ###### We are a community!
+
+
+## Upcoming Events
+ 
+We host sooo many events! check out out [calendar](https://www.galvanize.com/seattle/events)
+
+- [Code Hours](https://www.meetup.com/Learn-Code-Seattle/events/mnlqdqyxmbpb/) - Tuesday, September 11, 2018 6:30 PM to 8:30 PM
+- [Learn to Code Workshop: Intro to Python
+](https://www.meetup.com/Learn-Code-Seattle/events/253466303/) - Wednesday, September 12, 2018 6:30 PM to 8:30 PM
+- [Learn to Code Workshop: Intro to Git and GitHub](https://www.meetup.com/Learn-Code-Seattle/events/253466429/) - Wednesday, September 19, 2018 6:30 PM to 8:30 PM
+- [Code Hours](https://www.meetup.com/Learn-Code-Seattle/events/mnlqdqyxmbhc/) - Tuesday, September 25, 2018 6:30 PM to 8:30 PM
+- [Learn to Code Workshop: Intro to HTML & CSS](https://www.meetup.com/Learn-Code-Seattle/events/253466466/) - Thursday, September 27, 2018 6:30 PM to 8:30 PM
+
+I post a weekly list of meetups I think I awesome in Seattle [here](http://sageelliott.com/meetups/).
+
+
 #### Immersive Bootcamp
-- [Data Science](https://www.galvanize.com/seattle/data-science)
-- [Web Development](https://www.galvanize.com/seattle/web-development)
+- [Data Science](https://www.galvanize.com/seattle/data-science) - 9/17/2018
+- [Web Development](https://www.galvanize.com/seattle/web-development) - 9/10/2018
 
 #### Part-Time Courses
-- [Data Analytics](https://www.galvanize.com/seattle/data-analytics)
-- [Web Development Foundations with JavaScript](https://www.galvanize.com/seattle/web-development-foundations)
-- [Data Science Fundamentals](https://www.galvanize.com/seattle/data-science-fundamentals)
-- [Front End Web Development](https://www.galvanize.com/seattle/front-end-web-development)
+- [Data Analytics](https://www.galvanize.com/seattle/data-analytics) - 9/24/2018
+- [Web Development Foundations with JavaScript](https://www.galvanize.com/seattle/web-development-foundations) - 10/8/2018
+- [Data Science Fundamentals](https://www.galvanize.com/seattle/data-science-fundamentals) 9/10/2018
+
 
 
 #### Co-working Space
 [work in our building!](https://www.galvanize.com/entrepreneur)
 
-#### Events 
-We host sooo many events! check out out [calendar](https://www.galvanize.com/seattle/events)
+
 
 ## Questions:
 Please feel free to reach out to me with any questions!
