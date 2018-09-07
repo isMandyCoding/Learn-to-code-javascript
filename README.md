@@ -148,6 +148,9 @@ This is super useful! You can then receive or update the variable in your progra
 
 Think of it as naming a piece of data.
 
+We're going to define our variable using the keyword `var`. Its very common to see variables not defined using the newer keywords `let` or `const`. We won't go into the differnces in this workshop but you can read more about `let` & `const` [here](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75). For now just remember that `var` means we're creating a new variable.
+
+
 - `var twitter = "@sagecodes";`
 - `var score = 0;`
 
