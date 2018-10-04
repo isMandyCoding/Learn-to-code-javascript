@@ -296,35 +296,35 @@ What are some ideas for improvements?
 ###### We are a community!
 
 
-## Upcoming Events
+## Relevant Upcoming Events at Galvanize
  
 We host sooo many events! check out out [calendar](https://www.galvanize.com/seattle/events)
 
-- [Code Hours](https://www.meetup.com/Learn-Code-Seattle/events/mnlqdqyxmbpb/) - Tuesday, September 11, 2018 6:30 PM to 8:30 PM
-- [Learn to Code Workshop: Intro to Python
-](https://www.meetup.com/Learn-Code-Seattle/events/253466303/) - Wednesday, September 12, 2018 6:30 PM to 8:30 PM
-- [Learn to Code Workshop: Intro to Git and GitHub](https://www.meetup.com/Learn-Code-Seattle/events/253466429/) - Wednesday, September 19, 2018 6:30 PM to 8:30 PM
-- [Code Hours](https://www.meetup.com/Learn-Code-Seattle/events/mnlqdqyxmbhc/) - Tuesday, September 25, 2018 6:30 PM to 8:30 PM
-- [Learn to Code Workshop: Intro to HTML & CSS](https://www.meetup.com/Learn-Code-Seattle/events/253466466/) - Thursday, September 27, 2018 6:30 PM to 8:30 PM
+- [Learn to Code Workshop: Intro to Machine Learning](https://www.meetup.com/Seattle-Data-Science/events/255034878/) - Every Thursday 6:30 PM to 8:30 PM
 
-I post a weekly list of meetups I think I awesome in Seattle [here](http://sageelliott.com/meetups/).
+- [Practicing Coding Interviews](https://www.meetup.com/PSPPython/events/shfwgqyxnblb/) - Monday, October 8, 2018
+6:30 PM to 8:30 PM
+
+- [PuPPy Programming Night](https://www.meetup.com/PSPPython/events/zdzrxpyxnbpb/) - Every Thursday 6:30 PM to 8:45 PM
+
+- More Learn to codes coming soon!!!
+
+A weekly list of meetups I think I awesome in Seattle [here](http://sageelliott.com/meetups/).
 
 
 #### Part-Time Courses
-- [Data Analytics](https://www.galvanize.com/seattle/data-analytics) - 9/24/2018
-- [Web Development Foundations with JavaScript](https://www.galvanize.com/seattle/web-development-foundations) - 10/8/2018
-- [Data Science Fundamentals](https://www.galvanize.com/seattle/data-science-fundamentals) 9/10/2018
+- [Data Science Fundamentals](https://www.eventbrite.com/e/data-science-fundamentals-intro-to-python-seattle-108-1114-tickets-47489110207) - 10/8/2018
+- [Data Analytics](https://www.galvanize.com/seattle/data-analytics) - 10/23/2018
+- [Structured Study Program at Hack Reactor](https://getcoding.hackreactor.com/ssp-overview/) - 11/5/2018 or 11/12/2018  ***If you're ineterested in learning more about web development THIS IS A GREAT OPTION!!!!! 
+
 
 #### Immersive Bootcamp
-- [Data Science](https://www.galvanize.com/seattle/data-science) - 9/17/2018
-- [Web Development](https://www.galvanize.com/seattle/web-development) - 9/10/2018
-
-
+- [Data Science](https://www.galvanize.com/seattle/data-science) - 1/22/2019
+- [Web Development](https://www.galvanize.com/seattle/web-development) - 1/7/2019
 
 
 #### Co-working Space
 [work in our building!](https://www.galvanize.com/entrepreneur)
-
 
 
 ## Questions:
