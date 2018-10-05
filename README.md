@@ -47,7 +47,9 @@ You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited 
 
 
 ## About me:
-Hello I'm Gavin Look
+Hello I'm Gavin Look! I'm a Software Engineer and Galvanize Web Development Graduate. Let me tell you a little bit about my background too!
+
+- Linkedin: [gavinlook](https://www.linkedin.com/in/gavinlook/)
 
 <!--Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist here at Galvanize! Previously I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love technology! I'm currently learning more about building AI and VR projects. 
 
@@ -163,6 +165,7 @@ Comparison Operators are used quite frequently in programming. Its a great way t
 Again we won't cover ALL of the comparison operators in this workshop, but you can see a full list of them [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 
 - `==` Equal
+- `===` Strict Equal
 - `!=` Not Equal
 - `>` Greater Than
 - `>=` Greater Than or Equal
@@ -320,7 +323,7 @@ A weekly list of meetups I think I awesome in Seattle [here](http://sageelliott.
 
 #### Immersive Bootcamp
 - [Data Science](https://www.galvanize.com/seattle/data-science) - 1/22/2019
-- [Web Development](https://www.galvanize.com/seattle/web-development) - 1/7/2019
+- [Software Engineer](https://www.galvanize.com/seattle/web-development) - 1/7/2019
 
 
 #### Co-working Space
