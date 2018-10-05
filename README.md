@@ -47,16 +47,13 @@ You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited 
 
 
 ## About me:
-Hello I'm Gavin Look! I'm a Software Engineer and Galvanize Web Development Graduate. Let me tell you a little bit about my background too!
 
-- Linkedin: [gavinlook](https://www.linkedin.com/in/gavinlook/)
-
-<!--Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist here at Galvanize! Previously I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love technology! I'm currently learning more about building AI and VR projects. 
+Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist here at Galvanize! Previously I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love technology! I'm currently learning more about building AI and VR projects. 
 
 - Website: [sageelliott.com](http://sageelliott.com/)
 - Twitter: [@sagecodes](https://twitter.com/@sagecodes)
 - LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
-- Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)-->
+- Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
 
 
 ## About you!
@@ -337,12 +334,11 @@ Please feel free to reach out to Sage Elliott with any questions!
 - LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
 - Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
 
-<!--#### About the Instructors
+#### About the Instructors
 
 [Sage Elliott](https://www.linkedin.com/in/sageelliott/) is a technology evangelist for Galvanize based in Seattle. Previously he worked as a Software and hardware engineer for startup around Seattle WA and Melbourne Fl.
 
 You can email him at [sage.elliott@galvanize.com](mailto:age.elliott@galvanize.com) or tweet [@sagecodes](https://twitter.com/sagecodes) for any further questions.
--->
 
 
 
