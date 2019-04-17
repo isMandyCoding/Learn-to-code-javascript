@@ -220,17 +220,21 @@ We're going to use `var` for the rest of the workshop today and we won't dive de
 ## Interact with dialog boxes
 Using dialog boxes can be simple way to get started interacting with users.
 
+**Note**: These don't work in repl, but we can use them in our own files or in our developer console. I'll show you how to do this!
+
 Alert: Pop up information in a dialog box
 
 `alert("Hello, I'm a pop up");`
  
 Prompt: get information from a user in dialog box
 
-`prompt("I'm a pop up you can type in!")`
+`prompt("I'm a pop up you can type in!");`
 
 ### Challenge: Get a users name
 
 Use the `prompt()` function above to ask a user for a name, save it in a variable called `name` and print the variable using `console.log()`
+
+You will have to use your developer console for this one!
 
 
 ## Data Types:
@@ -261,8 +265,24 @@ Can we add strings together? Try it out!
 
 #### Print strings with variable in them:
 
+```
+var name = "Alexa"
+var age = 40
+var career = "programmer"
 
+console.log()
 
+```
+
+Newer ES6 way! 
+This was is much cleaner and easier to edit later.
+
+```
+var my_name = 'John';
+var s = `hello ${my_name}, how are you doing`;
+console.log(s); // prints hello John, how are you doing
+
+```
 
 ### Booleans:
 You can think of Booleans as yes(true) and no(false)
@@ -272,6 +292,8 @@ You can think of Booleans as yes(true) and no(false)
 We'll go into how to use these in a little bit. For now just remember they exist!
 
 ### Arrays:
+
+
 
 ### Dictionaries:
 
@@ -375,6 +397,12 @@ to use the function call it by writing its name and open/close parenthesis(). Wi
 - `add(2,5)` | output: 7
 
 In this simple example you're not saving a ton of code, but imagine a function that uses many lines of code! 
+
+### Challenge: Make your fizzBuzz function
+
+Make our FizzBuzz Solution a function.
+
+Allow that function to take in a number and run fizzbuzz on it.
 
 
 
