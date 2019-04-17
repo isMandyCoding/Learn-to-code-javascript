@@ -265,22 +265,35 @@ Can we add strings together? Try it out!
 
 #### Print strings with variable in them:
 
+Concatenation
+
+```
+var name = "Alexa"
+var age = 40
+var career = "programmer"
+
+var s = "My name is " + name + ". I am " + age + " years old. I am a " + career + "." ;
+
+console.log(s)
+
+```
+
+A newer ES6 way! 
+This is much cleaner and easier to edit later.
+
+It also knows your want your number variable in s string so it automatically converts it!
+
+**note** The string containing the variable using back-ticks |  ` | not single quotes. 
+
 ```
 var name = "Alexa"
 var age = 40
 var career = "programmer"
 
 console.log()
+var s = `My name is ${name}. I am ${age} years old. I am a ${career}. `;
 
-```
-
-Newer ES6 way! 
-This was is much cleaner and easier to edit later.
-
-```
-var my_name = 'John';
-var s = `hello ${my_name}, how are you doing`;
-console.log(s); // prints hello John, how are you doing
+console.log(s);
 
 ```
 
