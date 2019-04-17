@@ -94,7 +94,9 @@ Almost everyone!
 - Large Companies (Google, Facebook)
 - Startups
 - Agencies
-- Pretty much anyone using web technology 
+- Pretty much anyone using web technology
+
+It's one of the safest languages to learn for getting a job!
 
 
 ### What can you do with JavaScript
@@ -116,15 +118,127 @@ When learning more about JS you'll probably keep learning about these!
 - Angular
 - Vue
 
+We're doing a [React workshop next week](https://www.meetup.com/Learn-Code-Seattle/events/260067513/)!
+
 
 ## JavaScript Basics:
 
-### Data Types:
+## Comments
+You'll see comments throughout code. In Javascript they are made with `//`. They are a great way of explaining what your code is doing. So when you come back to it months later it won't be as confusing. Or when a new team member works on your code base
+
+```
+// I am a comment. I do not change any output
+```
+
+```
+/*
+I am 
+a
+multi
+line 
+comment
+*/
+```
+
+## Print output
+
+In programming its tradition to start with printing the output of "Hello, World!". You do this in JavaScript with the `console.log()` function!
+
+print Hello, World!
+
+`console.log("Hello, World!")`
+
+## Variables:
+Variable are a way to store information.
+This is super useful! You can then receive or update the variable in your program. You'll see this later!
+
+Think of it as naming a piece of data.
+
+We're going to define our variable using the keyword `var`. 
+
+```
+var twitter = "@sagecodes";
+var score = 0;
+
+console.log(twitter)
+
+```
+
+### Declaring Variables
+
+In newer versions of JavaScript you may see `let` or `const` used instead of `var`.
+
+- `Const` is used to declare variables you do not want to change later in your code. 
+
+- `let` is similar to `var`, but has a newer featured called block scoping and perhaps more importantly prevents name collision.
+
+### Examples:
+
+using `var`
+
+```
+var globalvar = 'hello'
+
+// CAN declare new variable with existing name (it overwrites)
+var globalvar = 'by'
+
+// CAN assign new value to variable
+globalvar = 'new value'
+
+```
+
+using `let`
+
+```
+let globalvar = 'hello'
+
+// CANNOT declare new variable with existing name
+let globalvar = 'by'
+
+// CAN assign new value to variable
+globalvar = 'by'
+``` 
+
+using `const`
+
+```
+const globalvar = 'hello'
+
+// CANNOT declare new variable with existing name
+const globalvar = 'by'
+
+// CANNOT assign new value to variable
+globalvar = 'by'
+``` 
+
+Essentially `let` and `const` are considered "safer" to use.
+
+
+We're going to use `var` for the rest of the workshop today and we won't dive deeper into the differences today, but you can read more about `let` & `const` [here](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75). 
+
+
+## Interact with dialog boxes
+Using dialog boxes can be simple way to get started interacting with users.
+
+Alert: Pop up information in a dialog box
+
+`alert("Hello, I'm a pop up");`
+ 
+Prompt: get information from a user in dialog box
+
+`prompt("I'm a pop up you can type in!")`
+
+### Challenge: Get a users name
+
+Use the `prompt()` function above to ask a user for a name, save it in a variable called `name` and print the variable using `console.log()`
+
+
+## Data Types:
 We're going to stick with the basics, so We wont be going over EVERY data type in javascript, but you you can read a more comprehensive list [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures).  
 
 Feel free to try these code samples out in your [repl](https://repl.it/)!
 
-#### Numbers:
+### Numbers:
 
 Numbers are written just like you would think. Just the number! No quotes or symbols to worry about. If you do put quotes around a number it will become a string (see next)
 
@@ -137,7 +251,7 @@ Multiple, Add, Divide, Compare
 - `8 / 2` | output: 4
 - `8 > 2` | output: true
 
-#### Strings:
+### Strings:
 Strings can be a collection of letters, symbols and/or numbers. They are made by surrounding the content with quotation marks.
 
 `"Hello, World."`
@@ -145,26 +259,22 @@ Strings can be a collection of letters, symbols and/or numbers. They are made by
 
 Can we add strings together? Try it out!
 
+#### Print strings with variable in them:
 
-#### Booleans:
+
+
+
+### Booleans:
 You can think of Booleans as yes(true) and no(false)
 
 `true` `false`
 
 We'll go into how to use these in a little bit. For now just remember they exist!
 
+### Arrays:
 
-## Variables:
-Variable are a way to store information.
-This is super useful! You can then receive or update the variable in your program. You'll see this later!
+### Dictionaries:
 
-Think of it as naming a piece of data.
-
-We're going to define our variable using the keyword `var`. Its very common to see variables not defined using the newer keywords `let` or `const`. We won't go into the differnces in this workshop but you can read more about `let` & `const` [here](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75). For now just remember that `var` means we're creating a new variable.
-
-
-- `var twitter = "@sagecodes";`
-- `var score = 0;`
 
 
 ## Comparison Operators:
@@ -186,25 +296,7 @@ Example:
 This would return a boolean value. Depending on the values of these variables this would return either `true` or `false`. Try it in your console using numbers instead of variables!
 
 
-## Functions
-Reduce, Reuse, Recycle
 
-Functions make it easy to reuse code. If you find yourself repeating code you may want to turn it into a function!
-
-Example:
-This function takes in two arguments(a, b) and returns the value of them added together. 
-
-```
-function add(a, b) {
-	return a + b; 
-};
-```
-to use the function call it by writing its name and open/close parenthesis(). With arguments passed inside the parenthesis():
-
-- `add(5,5)` | output: 10
-- `add(2,5)` | output: 7
-
-In this simple example you're not saving a ton of code, but imagine a function that uses many lines of code! 
 
 
 ## Conditionals
@@ -226,6 +318,11 @@ if (guess == answer) {
 	message = "I think you entered something wrong...";
 }
 ```
+
+### Challenge: Dynamic output
+
+Use conditionals to compare two variable and change its output depending on the variables. 
+
 
 ## Loops
 We're going to go over some of the basic loops in javascript, but yet again we're not going to cover everything, so you may want to read more about loops [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration).
@@ -257,17 +354,28 @@ while (i == 1) {
 }
 ```
 
+## Challenge: FizzBuzz
 
-## Interact with dialog boxes
-using dialog boxes can be simple way to get started interacting with users.
+## Functions
+Reduce, Reuse, Recycle
 
-Alert: Pop up information in a dialog box
+Functions make it easy to reuse code. If you find yourself repeating code you may want to turn it into a function!
 
-`alert("Hello, I'm a pop up");`
- 
-Prompt: get information from a user in dialog box
+Example:
+This function takes in two arguments(a, b) and returns the value of them added together. 
 
-`prompt("I'm a pop up you can type in!")`
+```
+function add(a, b) {
+	return a + b; 
+};
+```
+to use the function call it by writing its name and open/close parenthesis(). With arguments passed inside the parenthesis():
+
+- `add(5,5)` | output: 10
+- `add(2,5)` | output: 7
+
+In this simple example you're not saving a ton of code, but imagine a function that uses many lines of code! 
+
 
 
 ## Lets do some code!
