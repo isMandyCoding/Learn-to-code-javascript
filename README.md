@@ -9,7 +9,7 @@ The goal of this brief course is to provide you with a fun introduction to the w
 
 #### Here's what we'll be doing:
 * Overview of basic JavaScript concepts
-* Building a simple application using javascript
+* How to Solve a common interview Question
 * Playing around and break things
 
 
@@ -35,7 +35,7 @@ Well... that was easy!
 
 A super friendly introduction to JavaScript No previous experience expected! 
 
-You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited and comfortable to keep working and learning on your own! Come to our almost weekly code hours [meetups](https://www.meetup.com/Learn-Code-Seattle/events/) to ask questions if you get stuck and show off what you've been working on!
+You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited and comfortable to keep working and learning on your own! 
 
 - This course is for absolute beginners
 - Ask Questions!
@@ -48,12 +48,23 @@ You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited 
 
 ## About me:
 
-Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist here at Galvanize! Previously I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love technology! I'm currently learning more about building AI and VR projects. 
+Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist here at Galvanize! For the past decade I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love making things with technology! I'm Currently learning more about computer vision and deep learning deep learning!
+
+**Note:** I'm not a Galvanize Instructor, they're way better at teaching!
 
 - Website: [sageelliott.com](http://sageelliott.com/)
 - Twitter: [@sagecodes](https://twitter.com/@sagecodes)
 - LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
 - Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
+
+Reach out to me if interested in:
+
+- breaking into the tech industry 
+- learning resources
+- meetup recommendations 
+- learning more about Galvanize
+- giving me suggestions for events!
+- being friends
 
 
 ## About you!
@@ -111,7 +122,7 @@ When learning more about JS you'll probably keep learning about these!
 ### Data Types:
 We're going to stick with the basics, so We wont be going over EVERY data type in javascript, but you you can read a more comprehensive list [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures).  
 
-Feel free to try these code samples out in your developer console(I'll show you how) or your repl!
+Feel free to try these code samples out in your [repl](https://repl.it/)!
 
 #### Numbers:
 

@@ -15,3 +15,6 @@ function game(numberRange) {
   } 
   alert("you won")
 }
+}
+
+game()
