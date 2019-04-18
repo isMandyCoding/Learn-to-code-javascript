@@ -281,8 +281,6 @@ console.log(s)
 A newer ES6 way! 
 This is much cleaner and easier to edit later.
 
-It also knows your want your number variable in s string so it automatically converts it!
-
 **note** The string containing the variable using back-ticks |  ` | not single quotes. 
 
 ```
@@ -290,7 +288,6 @@ var name = "Alexa"
 var age = 40
 var career = "programmer"
 
-console.log()
 var s = `My name is ${name}. I am ${age} years old. I am a ${career}. `;
 
 console.log(s);
@@ -304,11 +301,220 @@ You can think of Booleans as yes(true) and no(false)
 
 We'll go into how to use these in a little bit. For now just remember they exist!
 
-### Arrays:
+### Arrays (lists):
+
+Often used to store a list of values.
+
+#### Create array
+
+```
+var tvshows = ['West World','Mr. Robot', 'Game of Thrones'];
+console.log(tvshows);
+```
+
+#### Access Items in Array
+
+```
+var tvshows = ['West World','Mr. Robot', 'Game of Thrones'];
+
+// print the first item in array;
+console.log(tvshows[0]);
+```
+
+#### Update Items in Array
+
+```
+var tvshows = ['West World','Mr. Robot', 'Game of Thrones']
+
+console.log(tvshows[0]);
+
+// Assign new value to first item of array
+tvshows[0] = "Robots in the west";
+
+// print the first item in array
+console.log(tvshows[0]);
+```
+
+#### Adding Items in Array
+
+```
+var tvshows = ['West World','Mr. Robot', 'Game of Thrones']
+
+console.log(tvshows);
+
+// add new value to first item of array
+tvshows.push("Firefly");
+
+// print the first item in array
+console.log(tvshows);
+```
+
+#### Removing Items from Array
 
 
+```
 
-### Dictionaries:
+var tvshows = ['West World','Mr. Robot', 'Game of Thrones', "Firefly"]
+
+console.log(tvshows);
+
+// remove last item with pop
+tvshows.pop();
+console.log(tvshows);
+
+// Target item to remove
+tvshows.splice(0, 2)
+
+
+// print the first item in array
+console.log(tvshows);
+
+```
+
+### Objects (Dictionaries):
+
+#### Create Object
+
+`person =	{ "name": "Bob", "age": 50, "occupation": 'programmer' }`
+
+```
+var person =	{
+  "name": "Alexa",
+  "age": 40,
+  "occupation": 'programmer'
+};
+
+```
+
+#### Access Items in an Object
+
+
+```
+var person =	{
+  "name": "Alexa",
+  "age": 40,
+  "occupation": 'programmer'
+};
+
+
+console.log(person);
+
+// two ways of accessing items
+console.log(person.name);
+console.log(person['age']);
+
+// example using object inside a string senence. 
+var s = `My name is ${person.name}. I am ${person["age"]} years old. I am a ${person.occupation}. `;
+
+console.log(s);
+
+```
+
+#### Update Items in Object
+
+
+```
+var person =	{
+  "name": "Alexa",
+  "age": 40,
+  "occupation": 'programmer'
+};
+
+
+console.log(person);
+
+// Select element and assign new variable
+person.name = "Bob";
+
+console.log(person);
+
+```
+
+#### Adding Items in Object
+
+```
+var person =	{
+  "name": "Alexa",
+  "age": 40,
+  "occupation": 'programmer'
+};
+
+
+console.log(person);
+
+// or person['newkey']
+person.newkey = "Im a new item";
+
+console.log(person);
+
+```
+
+#### Removing Items from Object
+
+```
+
+var person =	{
+  "name": "Alexa",
+  "age": 40,
+  "occupation": 'programmer',
+  "newkey": "Im a new item"
+};
+
+
+console.log(person);
+
+// use delete
+delete person.newkey
+
+console.log(person);
+
+```
+
+
+### Access Object value in Array 
+
+```
+var person =	{
+  "name": "Alexa",
+  "age": 40,
+  "occupation": 'programmer',
+  "newkey": "Im a new item"
+};
+
+// Add object to list
+var listy = [3, "hello", person]
+
+console.log(listy)
+
+// Access a object item from object in array
+console.log(listy[2].name)
+
+// Access a object item from object in array
+console.log(listy[2]["age"])
+
+```
+
+### Access Array item in Object
+
+```
+var favfoods = ["apples", "mac & cheese", "chcolate"]
+
+var person =	{
+  "name": "Alexa",
+  "age": 40,
+  "occupation": 'programmer',
+  "favs": favfoods
+};
+
+
+// Access a object item from object in array
+console.log(person.favs[0])
+
+// Access a object item from object in array
+console.log(person.favs[1])
+
+```
+
 
 
 
@@ -325,12 +531,12 @@ Again we won't cover ALL of the comparison operators in this workshop, but you c
 - `<` Less Than
 - `<=` Less Than or Equal
 
-Example:
+Example use:
 
 `current_score >= highest_score`
 This would return a boolean value. Depending on the values of these variables this would return either `true` or `false`. Try it in your console using numbers instead of variables!
 
-
+`===` Strict Equal vs `==` Equal?
 
 
 
