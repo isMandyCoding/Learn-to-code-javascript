@@ -3,6 +3,7 @@ var message;
 var tries = 0;
 
 function game(numberRange) {
+  message = "Guess between 1 and " + numberRange
   var answer = Math.floor(Math.random() * numberRange) +1;
   while (answer != guess) {
     guess = prompt("What is your guess? " + message);
@@ -13,8 +14,9 @@ function game(numberRange) {
   } else {
     message = "I think you did something wrong"
   } 
-  alert("you won")
+  
 }
+alert("you won")
 }
 
-game()
+game(10)

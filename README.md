@@ -679,20 +679,35 @@ JavaScript has a lot of built in functions ready to use!
 Check them out [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)!
 
 
+## Putting it all together again! 
 
-<!--## Lets do some code!
+Look at an example of making a guessing game
 
+```
+var guess;
+var message;
+var tries = 0;
 
+function game(numberRange) {
+  message = "Guess between 1 and " + numberRange
+  var answer = Math.floor(Math.random() * numberRange) +1;
+  while (answer != guess) {
+    guess = prompt("What is your guess? " + message);
+    if (guess < answer) {
+      message = "your guess is too low";
+  } else if (guess > answer) {
+    message = "your guess is too high";
+  } else {
+    message = "I think you did something wrong"
+  } 
+  
+}
+alert("you won")
+}
 
-We're going to build a number guessing game using:
+game(10)
 
-
-What are some ideas for improvements? 
-
-- Exit on command
-- data validation
-- input the number range from popup
-- output grammar depending on number of tries-->
+```
 
 
 # YOU DID IT! YOU'RE NOW A PROGRAMMER!
