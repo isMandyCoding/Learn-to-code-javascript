@@ -4,6 +4,13 @@ Brought to you by Galvanize. Learn more about the way we teach code at [galvaniz
 
 Get to this repo by typing in URL: **jsrepo.sage.codes**
 
+### FAQ: 
+
+- WIFI: `Galvanize Guest Seattle` | Password is posted on the wall
+- Bathrooms: Behind you down the hall to the left
+- Kitchen outside back classroom door with Coffee & Tea!
+- Snacks + water in back of room
+
 ## Overview
 The goal of this brief course is to provide you with a fun introduction to the world of web development with Javascript.
 
@@ -678,36 +685,6 @@ JavaScript has a lot of built in functions ready to use!
 
 Check them out [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)!
 
-
-## Putting it all together again! 
-
-Look at an example of making a guessing game
-
-```
-var guess;
-var message;
-var tries = 0;
-
-function game(numberRange) {
-  message = "Guess between 1 and " + numberRange
-  var answer = Math.floor(Math.random() * numberRange) +1;
-  while (answer != guess) {
-    guess = prompt("What is your guess? " + message);
-    if (guess < answer) {
-      message = "your guess is too low";
-  } else if (guess > answer) {
-    message = "your guess is too high";
-  } else {
-    message = "I think you did something wrong"
-  } 
-  
-}
-alert("you won")
-}
-
-game(10)
-
-```
 
 
 # YOU DID IT! YOU'RE NOW A PROGRAMMER!
