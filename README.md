@@ -254,6 +254,7 @@ Multiple, Add, Divide, Compare
 - `5 + 5` | output: 10
 - `8 / 2` | output: 4
 - `8 > 2` | output: true
+- `8 % 8` | output: 0
 
 ### Strings:
 Strings can be a collection of letters, symbols and/or numbers. They are made by surrounding the content with quotation marks.
@@ -586,6 +587,19 @@ for (i = 1; i <= 5; i++) {
 }
 ```
 
+Example:
+
+This `while` loop will run until is no longer less than 8 
+
+```
+var i = 0;
+while (i < 8) {
+    console.log("I will crash your browser")
+    i++
+}
+
+```
+
 If `i` were set to 1 it would run this loop and print the string until the value of `i` changed. If you run this in your browser it will probably crash it!
 
 ```
@@ -595,7 +609,22 @@ while (i == 1) {
 }
 ```
 
-## Challenge: FizzBuzz
+### Challenge: FizzBuzz
+
+[Fizzbuzz](https://en.wikipedia.org/wiki/Fizz_buzz) and variations of it is a popular interview question. 
+
+"From 1 to 100.
+
+For each multiple of 3, print "Fizz" instead of the number. 
+
+For each multiple of 5, print "Buzz" instead of the number. 
+
+For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number."
+
+Lets break it down and solve it together!
+
+
+
 
 ## Functions
 Reduce, Reuse, Recycle
@@ -617,37 +646,53 @@ to use the function call it by writing its name and open/close parenthesis(). Wi
 
 In this simple example you're not saving a ton of code, but imagine a function that uses many lines of code! 
 
-### Challenge: Make your fizzBuzz function
+### Challenge: Make a fizzBuzz function
 
 Make our FizzBuzz Solution a function.
 
 Allow that function to take in a number and run fizzbuzz on it.
 
 
+```
 
-## Lets do some code!
-You just learned a lot! Lets put it together and build something!
 
-Sign up if you haven't already and create a new project: https://repl.it/
+for (var i=1; i <= 20; i++)
+{
+    if (i % 15 == 0) {
+        console.log("FizzBuzz");
+    } else if (i % 3 == 0) {
+        console.log("Fizz");
+    } else if (i % 5 == 0) {
+        console.log("Buzz");
+    } else {
+        console.log(i);
+    }
+}
+
+```
+
+
+## Built in functions
+
+JavaScript has a lot of built in functions ready to use!
+
+Check them out [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)!
+
+
+
+<!--## Lets do some code!
+
 
 
 We're going to build a number guessing game using:
 
-- variables
-- Comparison Operators
-- Conditionals
-- loops
-- functions
-- dialog boxes
-
-If you get stuck or want to look ahead at the completed project you can view it [here](https://repl.it/@SageElliott/GuessingGame).
 
 What are some ideas for improvements? 
 
 - Exit on command
 - data validation
 - input the number range from popup
-- output grammar depending on number of tries
+- output grammar depending on number of tries-->
 
 
 # YOU DID IT! YOU'RE NOW A PROGRAMMER!
@@ -657,54 +702,60 @@ What are some ideas for improvements?
 ### Keep learning!
 
 
+Build project! You can start simple!
 
-## What is Galvanize?
-###### We are a community!
+- Number guessing game
+- todo list
+- Look into making an interactive webpage
 
 
-## Relevant Upcoming Events at Galvanize
- 
-We host sooo many events! check out out [calendar](https://www.galvanize.com/seattle/events)
+- [Hack Reactor Software Engineer Prep](http://bit.ly/gsoftprep) FREE | study at your own pace
 
-- [Learn to Code Workshop: Intro to Machine Learning](https://www.meetup.com/Seattle-Data-Science/events/255034878/) - Every Thursday 6:30 PM to 8:30 PM
+- [Galvanize Data Science Prep Course](http://bit.ly/gprepdata) - FREE | study at your own pace
 
-- [Practicing Coding Interviews](https://www.meetup.com/PSPPython/events/shfwgqyxnblb/) - Monday, October 8, 2018
-6:30 PM to 8:30 PM
 
-- [PuPPy Programming Night](https://www.meetup.com/PSPPython/events/zdzrxpyxnbpb/) - Every Thursday 6:30 PM to 8:45 PM
 
-- More Learn to codes coming soon!!!
+## Upcoming Events!
 
-A weekly list of meetups I think I awesome in Seattle [here](http://sageelliott.com/meetups/).
+Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) meetup for all upcoming events.
+
+
+- [Intro to Data Science with Python](https://www.eventbrite.com/e/intro-to-data-science-with-python-tickets-58878207303) - 4/18 630pm
+- [Intro to React](https://www.eventbrite.com/e/intro-to-react-tickets-58878540299) - 4/24 6:30pm
+- [SQL 101](https://www.eventbrite.com/e/sql-101-tickets-58878275507) - 4/25 630pm
+- [JavaScript Mini Bootcamp: Fundamentals II](https://www.eventbrite.com/e/javascript-mini-bootcamp-fundamentals-ii-tickets-58878315627) - 4/27 10am - 430pm
+- [Intro to Web Scraping for Data Science](https://www.eventbrite.com/e/intro-to-web-scraping-with-python-for-data-science-tickets-58878488143) 5/2 6:30pm
+
+## Galvanize Classes
+
+#### Immersive Bootcamp
+
+
+- [Software Engineer](https://www.galvanize.com/web-development) - 4/15/19 - 8/23/19
+- [Data Science](https://www.galvanize.com/data-science) - 5/6/19 - 8/2/19
 
 
 #### Part-Time Courses
-- [Data Science Fundamentals](https://www.eventbrite.com/e/data-science-fundamentals-intro-to-python-seattle-108-1114-tickets-47489110207) - 10/8/2018
-- [Data Analytics](https://www.galvanize.com/seattle/data-analytics) - 10/23/2018
-- [Structured Study Program at Hack Reactor](https://getcoding.hackreactor.com/ssp-overview/) - 11/5/2018 or 11/12/2018  ***If you're ineterested in learning more about web development THIS IS A GREAT OPTION!!!!! 
 
+- [Intro to Data Science](https://www.galvanize.com/part-time/intro-to-data-science) - 5/7/19 - 6/27/19
 
-#### Immersive Bootcamp
-- [Data Science](https://www.galvanize.com/seattle/data-science) - 1/22/2019
-- [Software Engineer](https://www.galvanize.com/seattle/web-development) - 1/7/2019
+- [Digital Marketing](https://www.galvanize.com/part-time/digital-marketing) - 5/13/19 - 7/3/19
 
+- [Data Analytics](https://www.galvanize.com/part-time/data-analytics) - 5/6/19 - 7/24/19
 
 #### Co-working Space
+
 [work in our building!](https://www.galvanize.com/entrepreneur)
 
+## Questions
 
-## Questions:
-Please feel free to reach out to Sage Elliott with any questions!
+Please feel free to reach out to me with any questions! Let me know what you're planning to do next and how I can help!
 
+
+- Website: [sageelliott.com](http://sageelliott.com/)
 - Twitter: [@sagecodes](https://twitter.com/@sagecodes)
 - LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
 - Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
-
-#### About the Instructors
-
-[Sage Elliott](https://www.linkedin.com/in/sageelliott/) is a technology evangelist for Galvanize based in Seattle. Previously he worked as a Software and hardware engineer for startup around Seattle WA and Melbourne Fl.
-
-You can email him at [sage.elliott@galvanize.com](mailto:age.elliott@galvanize.com) or tweet [@sagecodes](https://twitter.com/sagecodes) for any further questions.
 
 
 
