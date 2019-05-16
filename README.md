@@ -1,29 +1,17 @@
 # Learn to Code: Introduction to JavaScript
 
-Brought to you by Galvanize. Learn more about the way we teach code at [galvanize.com](http://galvanize.com).
+
+Start Learning Web Dev Basics with our free prep course! http://bit.ly/gsoftprep 
 
 Get to this repo by typing in URL: **jsrepo.sage.codes**
 
 ### FAQ: 
 
-- WIFI: `Galvanize Guest Seattle` | Password is posted on the wall
+- WIFI: `Galvanize Guest` | Password is posted on the wall
 - Bathrooms: Behind you down the hall to the left
 - Kitchen outside back classroom door with Coffee & Tea!
 - Snacks + water in back of room
 
-## Overview
-The goal of this brief course is to provide you with a fun introduction to the world of web development with Javascript.
-
-#### Here's what we'll be doing:
-* Overview of basic JavaScript concepts
-* How to Solve a common interview Question
-* Playing around and break things
-
-
-#### What is programming?
-Programming is giving your computer a set of instructions to perform a task. 
-
-This sounds simple but it can get complicated! 
 
 
 ## Setting up your computer
@@ -51,6 +39,17 @@ You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited 
 - Its ok to get stuck, just ask for help!
 - Feel free to move ahead
 - Be patient and nice
+
+#### Here's what we'll be doing:
+* Overview of basic JavaScript concepts
+* How to Solve a common interview Question
+* Playing around and break things
+
+
+#### What is programming?
+Programming is giving your computer a set of instructions to perform a task. 
+
+This sounds simple but it can get complicated! 
 
 
 ## About me:
@@ -153,7 +152,7 @@ In programming its tradition to start with printing the output of "Hello, World!
 
 print Hello, World!
 
-`console.log("Hello, World!")`
+`console.log("Hello, World!");`
 
 ## Variables:
 Variable are a way to store information.
@@ -167,7 +166,7 @@ We're going to define our variable using the keyword `var`.
 var twitter = "@sagecodes";
 var score = 0;
 
-console.log(twitter)
+console.log(twitter);
 
 ```
 
@@ -184,13 +183,13 @@ In newer versions of JavaScript you may see `let` or `const` used instead of `va
 using `var`
 
 ```
-var globalvar = 'hello'
+var globalvar = 'hello';
 
 // CAN declare new variable with existing name (it overwrites)
-var globalvar = 'by'
+var globalvar = 'by';
 
 // CAN assign new value to variable
-globalvar = 'new value'
+globalvar = 'new value';
 
 ```
 
@@ -209,13 +208,13 @@ globalvar = 'by'
 using `const`
 
 ```
-const globalvar = 'hello'
+const globalvar = 'hello';
 
 // CANNOT declare new variable with existing name
-const globalvar = 'by'
+const globalvar = 'by';
 
 // CANNOT assign new value to variable
-globalvar = 'by'
+globalvar = 'by';
 ``` 
 
 Essentially `let` and `const` are considered "safer" to use.
@@ -696,7 +695,7 @@ Check them out [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Re
 
 Build project! You can start simple!
 
-- Number guessing game
+- Number guessing game ([example](https://github.com/sagecodes/Learn-to-code-javascript/blob/master/simpleGuessingGame.js))
 - todo list
 - Look into making an interactive webpage
 
@@ -711,33 +710,47 @@ Build project! You can start simple!
 
 Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) meetup for all upcoming events.
 
+[Intro to Machine Learning](https://www.eventbrite.com/e/intro-to-machine-learning-tickets-60953543690)
 
-- [Intro to Data Science with Python](https://www.eventbrite.com/e/intro-to-data-science-with-python-tickets-58878207303) - 4/18 630pm
-- [Intro to React](https://www.eventbrite.com/e/intro-to-react-tickets-58878540299) - 4/24 6:30pm
-- [SQL 101](https://www.eventbrite.com/e/sql-101-tickets-58878275507) - 4/25 630pm
-- [JavaScript Mini Bootcamp: Fundamentals II](https://www.eventbrite.com/e/javascript-mini-bootcamp-fundamentals-ii-tickets-58878315627) - 4/27 10am - 430pm
-- [Intro to Web Scraping for Data Science](https://www.eventbrite.com/e/intro-to-web-scraping-with-python-for-data-science-tickets-58878488143) 5/2 6:30pm
+[Python 101](https://www.eventbrite.com/e/intro-to-programming-with-python-tickets-60954016103)
+
+More Coming in June!
+
+# What is Galvanize?
+
+> We create a technology ecosystem for learners, entrepreneurs, startups and established companies to meet the needs of the rapidly changing digital world.
+
+![](https://github.com/sagecodes/intro-data-science/raw/master/campus.png)
+
+- Education
+- Co-Working
+- Events
+- Enterprise
+
 
 ## Galvanize Classes
 
 #### Immersive Bootcamp
 
+Transform your career with our 13 week immersive programs
 
-- [Software Engineer](https://www.galvanize.com/web-development) - 4/15/19 - 8/23/19
-- [Data Science](https://www.galvanize.com/data-science) - 5/6/19 - 8/2/19
+- [Software Engineer](http://bit.ly/seawebdev) - 6/3/19 - 10/11/19
+- [Data Science](http://bit.ly/seadatascience) - 8/19/19 - 11/15/19
 
 
 #### Part-Time Courses
 
-- [Intro to Data Science](https://www.galvanize.com/part-time/intro-to-data-science) - 5/7/19 - 6/27/19
+Learn while working with out evening part-time classes
 
-- [Digital Marketing](https://www.galvanize.com/part-time/digital-marketing) - 5/13/19 - 7/3/19
 
-- [Data Analytics](https://www.galvanize.com/part-time/data-analytics) - 5/6/19 - 7/24/19
+- [Python Fundamentals](http://bit.ly/seapyfun) - 6/4/19 - 7/11/19
+
+- [Data Analytics](http://bit.ly/seadataa) - 6/3/19 - 8/21/19
 
 #### Co-working Space
 
 [work in our building!](https://www.galvanize.com/entrepreneur)
+
 
 ## Questions
 
@@ -748,7 +761,6 @@ Please feel free to reach out to me with any questions! Let me know what you're 
 - Twitter: [@sagecodes](https://twitter.com/@sagecodes)
 - LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
 - Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
-
 
 
 
