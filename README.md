@@ -716,6 +716,28 @@ Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) me
 
 More Coming in June!
 
+## Upcoming Events!
+
+Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) meetup for all upcoming events.
+
+- [Intro to Web Scraping](https://www.eventbrite.com/e/intro-to-web-scraping-with-python-for-data-science-free-tickets-78222735307) - 11/6/19
+
+- [Data Science Demo Day](https://www.eventbrite.com/e/galvanize-seattle-data-science-demo-day-111419-tickets-72309552819) - 11/14/19
+
+- [Intro to SQL](https://www.eventbrite.com/e/intro-to-sql-free-tickets-78226727247) - 11/14/19
+
+- [Intro to Machine Learning with Python](https://www.eventbrite.com/e/intro-to-machine-learning-free-tickets-78301755659) - 11/20/19
+
+- [Breaking into Software Engineering / Web Development Discussion Panel](https://www.eventbrite.com/e/break-into-software-engineering-alumni-discussion-panel-seattle-tickets-72146364719) - 11/25/19
+
+#### What do you want to see next??
+
+ - DOM manipulation with JavaScript
+ - Bulding a website with BootStrap
+
+
+
+
 # What is Galvanize?
 
 > We create a technology ecosystem for learners, entrepreneurs, startups and established companies to meet the needs of the rapidly changing digital world.
@@ -732,20 +754,22 @@ More Coming in June!
 
 #### Immersive Bootcamp
 
-Transform your career with our 13 week immersive programs
+Transform your career with our immersive programs
 
-- [Software Engineer](http://bit.ly/seawebdev) - 6/3/19 - 10/11/19
-- [Data Science](http://bit.ly/seadatascience) - 8/19/19 - 11/15/19
+- [Software Engineer](http://bit.ly/seawebdev) - 12/09/19 & 2/10/2020
+- [Data Science](http://bit.ly/seadatascience) - 12/2/19 & 3/16/2020
+
+Remote options:
+
+check out [Galvanize.com](https://www.galvanize.com/)
 
 
 #### Part-Time Courses
 
 Learn while working with out evening part-time classes
 
+[Galvanize.com](https://www.galvanize.com/)
 
-- [Python Fundamentals](http://bit.ly/seapyfun) - 6/4/19 - 7/11/19
-
-- [Data Analytics](http://bit.ly/seadataa) - 6/3/19 - 8/21/19
 
 #### Co-working Space
 
