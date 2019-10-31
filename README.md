@@ -85,6 +85,7 @@ Give a quick Intro!
 - Bathrooms: Behind you down the hall to the left
 - Kitchen outside back classroom door with Coffee & Tea!
 - Snacks + water in back of room
+- Get to this repo by typing in URL: **jsrepo.sage.codes**
 
 
 ## What is programming?
