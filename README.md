@@ -46,10 +46,7 @@ You can't learn EVERYTHING in ~2 hours. But you can learn enough to get excited 
 * Playing around and break things
 
 
-#### What is programming?
-Programming is giving your computer a set of instructions to perform a task. 
 
-This sounds simple but it can get complicated! 
 
 
 ## About me:
@@ -81,6 +78,20 @@ Give a quick Intro!
 - Whats your background?
 - Why are you interested in JavaScript?
 
+
+### FAQ Again for anyone who just walked in: 
+
+- WIFI: `Galvanize Guest` | Password is posted on the wall
+- Bathrooms: Behind you down the hall to the left
+- Kitchen outside back classroom door with Coffee & Tea!
+- Snacks + water in back of room
+
+
+## What is programming?
+Simply put: Programming is giving your computer a set of instructions to perform a task. 
+
+This sounds simple but it can get complicated! 
+
 ## What is javaScript?
 
 ### A very brief history
@@ -91,9 +102,11 @@ A lot of updates have happened of course since then, but its still fun to see so
 
 Read more about the history of JavaScript [here](https://en.wikipedia.org/wiki/JavaScript).
 
+Its one of the major building block of the web! 
+
 Javascript is often used with HTML and CSS to create dynamic web pages. 
 
-### Who uses javaScrip?
+### Who uses javaScript?
 
 Almost everyone!
 
@@ -124,10 +137,10 @@ When learning more about JS you'll probably keep learning about these!
 - Angular
 - Vue
 
-We're doing a [React workshop next week](https://www.meetup.com/Learn-Code-Seattle/events/260067513/)!
 
 
-## JavaScript Basics:
+
+# JavaScript Basics: Lets code!
 
 ## Comments
 You'll see comments throughout code. In Javascript they are made with `//`. They are a great way of explaining what your code is doing. So when you come back to it months later it won't be as confusing. Or when a new team member works on your code base
@@ -170,6 +183,15 @@ console.log(twitter);
 
 ```
 
+**Note:** Semi semicolons. Think of them as statement separators. When in doubt use them. Especially if you're just stating out! 
+
+You can read a little bit more about why [here](https://stackoverflow.com/questions/444080/do-you-recommend-using-semicolons-after-every-statement-in-javascript).
+
+Can be important to keep in mind when using something to [minify](https://javascript-minifier.com/) your code. 
+
+Another good [read](https://mariusschulz.com/blog/semicolons-after-function-declarations-in-javascript).
+
+
 ### Declaring Variables
 
 In newer versions of JavaScript you may see `let` or `const` used instead of `var`.
@@ -196,13 +218,13 @@ globalvar = 'new value';
 using `let`
 
 ```
-let globalvar = 'hello'
+let globalvar = 'hello';
 
 // CANNOT declare new variable with existing name
-let globalvar = 'by'
+let globalvar = 'by';
 
 // CAN assign new value to variable
-globalvar = 'by'
+globalvar = 'by';
 ``` 
 
 using `const`
@@ -221,6 +243,11 @@ Essentially `let` and `const` are considered "safer" to use.
 
 
 We're going to use `var` for the rest of the workshop today and we won't dive deeper into the differences today, but you can read more about `let` & `const` [here](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75). 
+
+
+### Challenge: Get a users name
+
+Create a variable called name and assign it your name. Use the `console.log` function to print out the variable value.
 
 
 ## Interact with dialog boxes
@@ -266,7 +293,12 @@ Multiple, Add, Divide, Compare
 Strings can be a collection of letters, symbols and/or numbers. They are made by surrounding the content with quotation marks.
 
 `"Hello, World."`
+
 `"CrAzy Random String 987879896jvdjvda &&(&(@*(*"`
+
+They can use double quotes or single quotes. Make sure they are matching and the string does not contain any breaking quotes inside it!
+
+If it might you may want use the newer back-tick ` way creating a string. Called a template literal. We'll see some extra features of these in a minute!
 
 Can we add strings together? Try it out!
 
@@ -275,13 +307,13 @@ Can we add strings together? Try it out!
 Concatenation
 
 ```
-var name = "Alexa"
-var age = 40
-var career = "programmer"
+var name = "Alexa";
+var age = 40;
+var career = "programmer";
 
 var s = "My name is " + name + ". I am " + age + " years old. I am a " + career + "." ;
 
-console.log(s)
+console.log(s);
 
 ```
 
@@ -556,6 +588,9 @@ When writing a program you'll often want to check if data meets a certain condit
 Example:
 
 ```
+var guess = 5;
+var answer = 4;
+
 if (guess == answer) {
     message = "You Win!";
 } else if (guess < answer) {
@@ -564,8 +599,21 @@ if (guess == answer) {
     message = "your guess is too high!";
 } else {
 	message = "I think you entered something wrong...";
-}
+};
+
 ```
+
+Using multiple conditions:
+
+
+Check if both variables meet condition
+
+`if (variable1 == 0 && variable2 == 0)`
+
+
+Check if either variable meets condition
+
+`if (variable1 == 0 || variable2 == 0)`
 
 ### Challenge: Dynamic output
 
@@ -593,6 +641,13 @@ for (i = 1; i <= 5; i++) {
 }
 ```
 
+```
+for (var i=1; i <= 5; i++) {
+    console.log(i);
+}
+
+```
+
 Example:
 
 This `while` loop will run until is no longer less than 8 
@@ -600,7 +655,7 @@ This `while` loop will run until is no longer less than 8
 ```
 var i = 0;
 while (i < 8) {
-    console.log("I will crash your browser")
+    console.log("I will crash your browser if you don't increment i")
     i++
 }
 
@@ -705,16 +760,11 @@ Build project! You can start simple!
 - [Galvanize Data Science Prep Course](http://bit.ly/gprepdata) - FREE | study at your own pace
 
 
+#### What do you want to see next??
 
-## Upcoming Events!
+ - DOM manipulation with JavaScript
+ - Bulding a website with BootStraps
 
-Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) meetup for all upcoming events.
-
-[Intro to Machine Learning](https://www.eventbrite.com/e/intro-to-machine-learning-tickets-60953543690)
-
-[Python 101](https://www.eventbrite.com/e/intro-to-programming-with-python-tickets-60954016103)
-
-More Coming in June!
 
 ## Upcoming Events!
 
@@ -730,10 +780,7 @@ Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) me
 
 - [Breaking into Software Engineering / Web Development Discussion Panel](https://www.eventbrite.com/e/break-into-software-engineering-alumni-discussion-panel-seattle-tickets-72146364719) - 11/25/19
 
-#### What do you want to see next??
 
- - DOM manipulation with JavaScript
- - Bulding a website with BootStrap
 
 
 
